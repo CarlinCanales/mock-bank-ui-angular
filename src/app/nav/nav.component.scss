@@ -1,0 +1,35 @@
+.wrapper {
+
+  border: 5rem solid black;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .nav-open & {
+    ul {
+      display: block;
+    }
+  }
+
+  ul {
+    display: none;
+  }
+  
+  .hamburger {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    cursor: pointer;
+
+    span {
+      width: 1.5rem;
+      height: .2rem;
+      background-color: #123456;
+    }
+  }
+}
